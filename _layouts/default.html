@@ -1,0 +1,15 @@
+{% include header.html %}
+
+    <div id="post-index" class="container">
+        <ol class="post-list">
+            {% for post in paginator.posts %}
+                {% include archive-item.html %}
+            {% endfor %}
+        </ol>
+
+        <div class="post-navigation">
+            {% include pagination.html %}
+        </div>
+    </div>
+
+{% include footer.html %}

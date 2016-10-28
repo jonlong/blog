@@ -1,0 +1,11 @@
+# Site Settings
+title: 'Blog — linesandwaves'
+siteTitle: 'Linesandwaves'
+description: 'A super sweet blog'
+url: 'https://blog.linesandwaves.com' # the base hostname & protocol for your site
+footer_text: 'This text is footer text. Footer text goes here.'
+
+# Admin Settings
+admin_name: 'Jon Long'
+admin_email: 'jon@linesandwaves.com'
+
